@@ -13,19 +13,13 @@ async function requireSession() {
   return session;
 }
 
-interface Params {
-  params: {
-    id: string;
-  };
-}
-
-export async function PUT(request: Request, { params }: Params) {
+export async function PUT(request: Request, context: { params: { id: string } }) {
   const session = await requireSession();
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const id = Number(params.id);
+  const id = Number(context.params.id);
   if (Number.isNaN(id)) {
     return NextResponse.json({ error: "Invalid id" }, { status: 400 });
   }
@@ -53,13 +47,13 @@ export async function PUT(request: Request, { params }: Params) {
   return NextResponse.json({ data });
 }
 
-export async function DELETE(_request: Request, { params }: Params) {
+export async function DELETE(_request: Request, context: { params: { id: string } }) {
   const session = await requireSession();
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const id = Number(params.id);
+  const id = Number(context.params.id);
   if (Number.isNaN(id)) {
     return NextResponse.json({ error: "Invalid id" }, { status: 400 });
   }

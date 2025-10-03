@@ -9,7 +9,7 @@ import {
 } from "@/lib/portfolio";
 import type { PortfolioCompany } from "@/types/portfolio";
 
-export const revalidate = 60 * 60 * 24;
+export const revalidate = 86400;
 
 async function fetchPortfolio(): Promise<PortfolioCompany[]> {
   const supabase = getAnonSupabaseClient();
