@@ -26,7 +26,6 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
   },
-  manifest: "/site.webmanifest",
   openGraph: {
     title: "K94L Holding",
     description: "K94L Holding is a private investment company focusing primarily on startups.",
