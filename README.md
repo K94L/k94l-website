@@ -14,6 +14,7 @@ A lightweight static site for K94L Holding mirroring the live Databutton experie
 ├── script.js                 # Handles CSV loading + preview logic
 ├── styles.css                # Styling
 ├── generate_portfolio.py     # Builds static markup from the CSV
+├── web/                      # Next.js app (Vercel deployment + admin)
 └── README.md
 ```
 
@@ -46,6 +47,7 @@ A lightweight static site for K94L Holding mirroring the live Databutton experie
 3. Run `python generate_portfolio.py` to rebuild the portfolio markup (updates the homepage and company count).
 4. (Optional) Start a local server to double-check: `python3 -m http.server 3000`.
 5. Deploy the updated files (`index.html`, `data/portfolio.csv`, etc.) to one.com.
+6. Alternatively, manage the data via the Vercel/Next.js admin in `web/`.
 
 ## Deploying to one.com
 
@@ -68,3 +70,11 @@ One.com hosting serves static files from the `public_html` directory of your spa
 - Add analytics or SEO metadata if needed for broader visibility.
 - Protect the CSV upload flow behind a password and persist uploads via a small serverless function if One.com allows dynamic scripting.
 - Automate deployment using a GitHub Action that deploys on push via FTP or the One.com API.
+
+## Next.js + Supabase admin (Vercel)
+
+The `web/` directory contains the Next.js project deployed to Vercel. It provides:
+- Google-authenticated access to `/admin` for editing companies in Supabase
+- API routes that revalidate the public page after changes
+
+Follow `web/README.md` for environment variables and deployment steps.

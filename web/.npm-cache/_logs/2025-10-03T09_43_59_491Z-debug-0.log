@@ -1,0 +1,1568 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.2.4
+2 info using node@v20.11.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:/Users/kristofferlande/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 4ms
+17 timing npm:load:configload Completed in 4ms
+18 timing config:load:flatten Completed in 1ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install
+22 verbose argv "install"
+23 timing npm:load:setTitle Completed in 5ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/.npm-cache/_logs/2025-10-03T09_43_59_491Z-
+26 verbose logfile /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/.npm-cache/_logs/2025-10-03T09_43_59_491Z-debug-0.log
+27 timing npm:load:logFile Completed in 5ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 24ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 74ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:node_modules/@tailwindcss/oxide-wasm32-wasi Completed in 0ms
+38 timing idealTree:buildDeps Completed in 1ms
+39 timing idealTree:fixDepFlags Completed in 0ms
+40 timing idealTree Completed in 78ms
+41 timing reify:loadTrees Completed in 152ms
+42 timing reify:diffTrees Completed in 3ms
+43 silly reify mark retired [
+43 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/axe-core'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/caniuse-lite'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/es-abstract'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/eslint-plugin-react'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/flatted'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/jiti'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/language-subtag-registry'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-darwin-x64'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-freebsd-x64'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm-gnueabihf'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm64-musl'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-x64-musl'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-win32-arm64-msvc'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm64-gnu'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-x64-gnu'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-win32-x64-msvc'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lucide-react'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/next'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/next-auth'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/oauth'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/object.entries'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/react'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/reflect.getprototypeof'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/react-dom'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/safe-array-concat'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/sharp'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/source-map-js'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/tr46'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/ts-api-utils'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/typescript'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/uuid'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@babel/runtime'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@eslint/eslintrc'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@emnapi/core'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-darwin-x64'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-darwin-arm64'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-darwin-x64'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-arm64'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-arm'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-ppc64'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-s390x'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-x64'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linuxmusl-x64'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-arm'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-ppc64'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-arm64'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-s390x'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-x64'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linuxmusl-arm64'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linuxmusl-x64'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-wasm32'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-arm64'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-ia32'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-x64'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@napi-rs/wasm-runtime'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-darwin-x64'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-arm64-gnu'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-arm64-musl'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-x64-gnu'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-x64-musl'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-win32-x64-msvc'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-win32-arm64-msvc'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@nodelib/fs.scandir'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@supabase/auth-js'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@supabase/storage-js'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@supabase/supabase-js'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-android-arm64'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-darwin-x64'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-freebsd-x64'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-x64-musl'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-wasm32-wasi'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@types/node'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-android-arm64'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-freebsd-x64'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-android-arm-eabi'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-darwin-x64'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-x64-musl'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-wasm32-wasi'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/acorn',
+141 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/acorn'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/eslint',
+142 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/eslint'
+142 silly reify ]
+143 silly reify mark retired [
+143 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/eslint-plugin-import/node_modules/semver'
+143 silly reify ]
+144 silly reify mark retired [
+144 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/esrecurse'
+144 silly reify ]
+145 silly reify mark retired [
+145 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/js-yaml',
+145 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/js-yaml'
+145 silly reify ]
+146 silly reify mark retired [
+146 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/json5',
+146 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/json5'
+146 silly reify ]
+147 silly reify mark retired [
+147 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/loose-envify',
+147 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/loose-envify'
+147 silly reify ]
+148 silly reify mark retired [
+148 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/nanoid',
+148 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/nanoid'
+148 silly reify ]
+149 silly reify mark retired [
+149 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/napi-postinstall',
+149 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/napi-postinstall'
+149 silly reify ]
+150 silly reify mark retired [
+150 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/resolve',
+150 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/resolve'
+150 silly reify ]
+151 silly reify mark retired [
+151 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/semver',
+151 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/semver'
+151 silly reify ]
+152 silly reify mark retired [
+152 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/tinyglobby/node_modules/fdir'
+152 silly reify ]
+153 silly reify mark retired [
+153 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/which',
+153 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/node-which'
+153 silly reify ]
+154 silly reify moves {
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/axe-core': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.axe-core-WAstYJzL',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/caniuse-lite': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.caniuse-lite-hGtxZPHC',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/es-abstract': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.es-abstract-E4561Q6l',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/eslint-plugin-react': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.eslint-plugin-react-wjKWyynI',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/flatted': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.flatted-xT0ih9nk',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/jiti': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.jiti-ChxEYSff',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/language-subtag-registry': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.language-subtag-registry-WNv6MpNg',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-darwin-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lightningcss-darwin-x64-sZ5OOXAD',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-freebsd-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lightningcss-freebsd-x64-miks0TGq',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm-gnueabihf': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lightningcss-linux-arm-gnueabihf-nITbGh0R',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm64-musl': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lightningcss-linux-arm64-musl-NcuxqDV5',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-x64-musl': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lightningcss-linux-x64-musl-DPW1XPeC',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-win32-arm64-msvc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lightningcss-win32-arm64-msvc-VgtLOYNC',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lightningcss-linux-arm64-gnu-ljkVJBrw',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-x64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lightningcss-linux-x64-gnu-5txF0j9p',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-win32-x64-msvc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lightningcss-win32-x64-msvc-HWs76exE',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lucide-react': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.lucide-react-qorthbaD',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/next': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.next-YDzQupr7',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/next-auth': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.next-auth-MRBxwLnM',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/oauth': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.oauth-qCH3P06M',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/object.entries': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.object.entries-eUl5jxhn',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/react': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.react-R6RyhKYI',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/reflect.getprototypeof': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.reflect.getprototypeof-4OaBjxBY',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/react-dom': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.react-dom-CXmCWYjp',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/safe-array-concat': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.safe-array-concat-RbMk2Px8',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/sharp': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.sharp-fMFcqNR0',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/source-map-js': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.source-map-js-R6wAikE5',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/tr46': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.tr46-gGDObq5q',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/ts-api-utils': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.ts-api-utils-4t7UWoGV',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/typescript': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.typescript-r9wg2Do8',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/uuid': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.uuid-Ssu811bC',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@babel/runtime': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@babel/.runtime-FYHRsssq',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@eslint/eslintrc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@eslint/.eslintrc-wauxD7r2',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@emnapi/core': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@emnapi/.core-3QzFRcwa',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-darwin-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-darwin-x64-85TK61NT',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-darwin-arm64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-libvips-darwin-arm64-kgOhNu79',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-darwin-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-libvips-darwin-x64-zx9HogJR',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-arm64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-libvips-linux-arm64-h785WeIu',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-arm': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-libvips-linux-arm-mdBi15mf',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-ppc64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-libvips-linux-ppc64-giuFK5cz',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-s390x': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-libvips-linux-s390x-MHwXlhAx',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-libvips-linux-x64-XS9wLpbT',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linuxmusl-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-libvips-linuxmusl-x64-A1kA424v',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linuxmusl-arm64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-libvips-linuxmusl-arm64-rg17Nfx9',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-arm': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-linux-arm-MFT9oRSS',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-ppc64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-linux-ppc64-bWOgltCe',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-arm64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-linux-arm64-om3GUp4E',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-s390x': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-linux-s390x-EjK62aF6',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-linux-x64-zlQ6z5rZ',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linuxmusl-arm64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-linuxmusl-arm64-r0ZLCMiE',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linuxmusl-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-linuxmusl-x64-FuO1MZ8T',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-wasm32': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-wasm32-csUOxKGa',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-arm64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-win32-arm64-Oboa3e6h',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-ia32': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-win32-ia32-6V5JNkkZ',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/.sharp-win32-x64-WiGKE4EQ',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@napi-rs/wasm-runtime': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@napi-rs/.wasm-runtime-WEaRrq7s',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-darwin-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/.swc-darwin-x64-fyok96np',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-arm64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/.swc-linux-arm64-gnu-jKjVTVzH',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-arm64-musl': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/.swc-linux-arm64-musl-L073Xpca',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-x64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/.swc-linux-x64-gnu-DRu5PMEz',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-x64-musl': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/.swc-linux-x64-musl-BiyqbcJZ',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-win32-x64-msvc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/.swc-win32-x64-msvc-0YgARohG',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-win32-arm64-msvc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/.swc-win32-arm64-msvc-uxExDKSU',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@nodelib/fs.scandir': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@nodelib/.fs.scandir-rXNn08CN',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@supabase/auth-js': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@supabase/.auth-js-UUKObkSM',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@supabase/storage-js': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@supabase/.storage-js-5RRfFmeh',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@supabase/supabase-js': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@supabase/.supabase-js-9ncEdsp3',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-gkmuxSTs',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-android-arm64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-android-arm64-JvHQBsRR',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-darwin-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-darwin-x64-A2oDuIiw',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-freebsd-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-freebsd-x64-GfNZptwF',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-linux-arm-gnueabihf-1pjH7PS5',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm64-musl': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-linux-arm64-musl-pHzbfvTy',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-x64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-linux-x64-gnu-qpwOfLLH',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-linux-arm64-gnu-AYL5BGMj',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-x64-musl': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-linux-x64-musl-Mb8S8a5O',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-wasm32-wasi': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-wasm32-wasi-bvBtqQ4Q',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-win32-arm64-msvc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-win32-arm64-msvc-nnqKcOPL',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-win32-x64-msvc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/.oxide-win32-x64-msvc-rYqFV0zx',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@types/node': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@types/.node-iIknzSc0',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-android-arm64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-android-arm64-AfNLzq54',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-freebsd-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-freebsd-x64-1C773Sbf',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-android-arm-eabi': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-android-arm-eabi-pac2p5ph',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-arm-gnueabihf-2pxZoooD',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-darwin-x64': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-darwin-x64-E1RLDldt',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm-musleabihf': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-arm-musleabihf-JJKA09Hu',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-arm64-gnu-e3oqvOrD',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-ppc64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-ppc64-gnu-V5QM0Cpu',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm64-musl': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-arm64-musl-qnKP46pl',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-riscv64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-riscv64-gnu-t0gsqyF1',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-riscv64-musl': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-riscv64-musl-O8ACAlXK',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-s390x-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-s390x-gnu-IBUhhQCo',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-x64-gnu': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-x64-gnu-pNtuxbZ3',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-x64-musl': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-linux-x64-musl-ETQorMlI',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-wasm32-wasi': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-wasm32-wasi-Ll0aLr2t',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-ia32-msvc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-win32-ia32-msvc-nTm04Zdd',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-x64-msvc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-win32-x64-msvc-6ry1LoD9',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-arm64-msvc': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/.resolver-binding-win32-arm64-msvc-3Ls0mmKX',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/acorn': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.acorn-N1Gb7BMo',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/acorn': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.acorn-R5ttKJvw',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/eslint': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.eslint-k4f4VPtp',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/eslint': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.eslint-VzoxttfV',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/eslint-plugin-import/node_modules/semver': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/eslint-plugin-import/node_modules/.semver-l2zTvlfe',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/esrecurse': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.esrecurse-B5itR9ab',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/js-yaml': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.js-yaml-CfwCU1aP',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/js-yaml': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.js-yaml-env0tc2y',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/json5': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.json5-bEdx0Blt',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/json5': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.json5-TwxbiYri',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/loose-envify': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.loose-envify-RE2guywC',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/loose-envify': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.loose-envify-QHJ1ljJk',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/nanoid': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.nanoid-TCCf7N2h',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/nanoid': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.nanoid-wG8CrOXw',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/napi-postinstall': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.napi-postinstall-XFpv3Tp1',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/napi-postinstall': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.napi-postinstall-6JWIZXNw',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/resolve': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.resolve-ZcocEPta',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/resolve': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.resolve-6D34s529',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/semver': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.semver-sFzwETC4',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/semver': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.semver-sTgSaZVf',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/tinyglobby/node_modules/fdir': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/tinyglobby/node_modules/.fdir-VDK8eGxh',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/which': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.which-rIwYj5Z8',
+154 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/node-which': '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/.bin/.node-which-HPKiX0Dg'
+154 silly reify }
+155 timing reify:retireShallow Completed in 22ms
+156 timing reify:createSparse Completed in 5ms
+157 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-wasm32-wasi
+158 silly reify mark deleted [
+158 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-wasm32-wasi'
+158 silly reify ]
+159 timing reifyNode:node_modules/@tailwindcss/oxide-wasm32-wasi Completed in 1ms
+160 timing arborist:ctor Completed in 0ms
+161 timing reify:diffTrees Completed in 2ms
+162 timing reify:loadBundles Completed in 4ms
+163 silly audit bulk request {
+163 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+163 silly audit   '@babel/runtime': [ '7.28.4' ],
+163 silly audit   '@emnapi/core': [ '1.5.0' ],
+163 silly audit   '@emnapi/runtime': [ '1.5.0' ],
+163 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+163 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+163 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+163 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+163 silly audit   '@eslint/config-array': [ '0.21.0' ],
+163 silly audit   '@eslint/config-helpers': [ '0.3.1' ],
+163 silly audit   '@eslint/core': [ '0.15.2' ],
+163 silly audit   '@eslint/eslintrc': [ '3.3.1' ],
+163 silly audit   '@eslint/js': [ '9.36.0' ],
+163 silly audit   '@eslint/object-schema': [ '2.1.6' ],
+163 silly audit   '@eslint/plugin-kit': [ '0.3.5' ],
+163 silly audit   '@hookform/resolvers': [ '5.2.2' ],
+163 silly audit   '@humanfs/core': [ '0.19.1' ],
+163 silly audit   '@humanfs/node': [ '0.16.7' ],
+163 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+163 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+163 silly audit   '@img/colour': [ '1.0.0' ],
+163 silly audit   '@img/sharp-darwin-arm64': [ '0.34.4' ],
+163 silly audit   '@img/sharp-darwin-x64': [ '0.34.4' ],
+163 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.3' ],
+163 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.3' ],
+163 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.3' ],
+163 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.3' ],
+163 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.3' ],
+163 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.3' ],
+163 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.3' ],
+163 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.3' ],
+163 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.3' ],
+163 silly audit   '@img/sharp-linux-arm': [ '0.34.4' ],
+163 silly audit   '@img/sharp-linux-arm64': [ '0.34.4' ],
+163 silly audit   '@img/sharp-linux-ppc64': [ '0.34.4' ],
+163 silly audit   '@img/sharp-linux-s390x': [ '0.34.4' ],
+163 silly audit   '@img/sharp-linux-x64': [ '0.34.4' ],
+163 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.4' ],
+163 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.4' ],
+163 silly audit   '@img/sharp-wasm32': [ '0.34.4' ],
+163 silly audit   '@img/sharp-win32-arm64': [ '0.34.4' ],
+163 silly audit   '@img/sharp-win32-ia32': [ '0.34.4' ],
+163 silly audit   '@img/sharp-win32-x64': [ '0.34.4' ],
+163 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+163 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+163 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+163 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+163 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+163 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+163 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+163 silly audit   '@next/env': [ '15.5.4' ],
+163 silly audit   '@next/eslint-plugin-next': [ '15.5.4' ],
+163 silly audit   '@next/swc-darwin-arm64': [ '15.5.4' ],
+163 silly audit   '@next/swc-darwin-x64': [ '15.5.4' ],
+163 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.4' ],
+163 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.4' ],
+163 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.4' ],
+163 silly audit   '@next/swc-linux-x64-musl': [ '15.5.4' ],
+163 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.4' ],
+163 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.4' ],
+163 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+163 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+163 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+163 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+163 silly audit   '@panva/hkdf': [ '1.2.1' ],
+163 silly audit   '@rtsao/scc': [ '1.1.0' ],
+163 silly audit   '@rushstack/eslint-patch': [ '1.12.0' ],
+163 silly audit   '@standard-schema/utils': [ '0.3.0' ],
+163 silly audit   '@supabase/auth-js': [ '2.72.0' ],
+163 silly audit   '@supabase/functions-js': [ '2.5.0' ],
+163 silly audit   '@supabase/node-fetch': [ '2.6.15' ],
+163 silly audit   '@supabase/postgrest-js': [ '1.21.4' ],
+163 silly audit   '@supabase/realtime-js': [ '2.15.5' ],
+163 silly audit   '@supabase/ssr': [ '0.7.0' ],
+163 silly audit   '@supabase/storage-js': [ '2.12.2' ],
+163 silly audit   '@supabase/supabase-js': [ '2.58.0' ],
+163 silly audit   '@swc/helpers': [ '0.5.15' ],
+163 silly audit   '@tailwindcss/node': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.14' ],
+163 silly audit   '@tailwindcss/postcss': [ '4.1.14' ],
+163 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+163 silly audit   '@types/estree': [ '1.0.8' ],
+163 silly audit   '@types/json-schema': [ '7.0.15' ],
+163 silly audit   '@types/json5': [ '0.0.29' ],
+163 silly audit   '@types/node': [ '20.19.19' ],
+163 silly audit   '@types/phoenix': [ '1.6.6' ],
+163 silly audit   '@types/react': [ '19.2.0' ],
+163 silly audit   '@types/react-dom': [ '19.2.0' ],
+163 silly audit   '@types/ws': [ '8.18.1' ],
+163 silly audit   '@typescript-eslint/eslint-plugin': [ '8.45.0' ],
+163 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+163 silly audit   '@typescript-eslint/parser': [ '8.45.0' ],
+163 silly audit   '@typescript-eslint/project-service': [ '8.45.0' ],
+163 silly audit   '@typescript-eslint/scope-manager': [ '8.45.0' ],
+163 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.45.0' ],
+163 silly audit   '@typescript-eslint/type-utils': [ '8.45.0' ],
+163 silly audit   '@typescript-eslint/types': [ '8.45.0' ],
+163 silly audit   '@typescript-eslint/typescript-estree': [ '8.45.0' ],
+163 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+163 silly audit   'fast-glob': [ '3.3.3', '3.3.1' ],
+163 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+163 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+163 silly audit   '@typescript-eslint/utils': [ '8.45.0' ],
+163 silly audit   '@typescript-eslint/visitor-keys': [ '8.45.0' ],
+163 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+163 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+163 silly audit   acorn: [ '8.15.0' ],
+163 silly audit   'acorn-jsx': [ '5.3.2' ],
+163 silly audit   ajv: [ '6.12.6' ],
+163 silly audit   'ansi-styles': [ '4.3.0' ],
+163 silly audit   argparse: [ '2.0.1' ],
+163 silly audit   'aria-query': [ '5.3.2' ],
+163 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+163 silly audit   'array-includes': [ '3.1.9' ],
+163 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+163 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+163 silly audit   'array.prototype.flat': [ '1.3.3' ],
+163 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+163 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+163 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+163 silly audit   'ast-types-flow': [ '0.0.8' ],
+163 silly audit   'async-function': [ '1.0.0' ],
+163 silly audit   'available-typed-arrays': [ '1.0.7' ],
+163 silly audit   'axe-core': [ '4.10.3' ],
+163 silly audit   'axobject-query': [ '4.1.0' ],
+163 silly audit   'balanced-match': [ '1.0.2' ],
+163 silly audit   braces: [ '3.0.3' ],
+163 silly audit   'call-bind': [ '1.0.8' ],
+163 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+163 silly audit   'call-bound': [ '1.0.4' ],
+163 silly audit   callsites: [ '3.1.0' ],
+163 silly audit   'caniuse-lite': [ '1.0.30001747' ],
+163 silly audit   chalk: [ '4.1.2' ],
+163 silly audit   chownr: [ '3.0.0' ],
+163 silly audit   'client-only': [ '0.0.1' ],
+163 silly audit   clsx: [ '2.1.1' ],
+163 silly audit   'color-convert': [ '2.0.1' ],
+163 silly audit   'color-name': [ '1.1.4' ],
+163 silly audit   'concat-map': [ '0.0.1' ],
+163 silly audit   cookie: [ '1.0.2', '0.7.2' ],
+163 silly audit   'cross-spawn': [ '7.0.6' ],
+163 silly audit   csstype: [ '3.1.3' ],
+163 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+163 silly audit   'data-view-buffer': [ '1.0.2' ],
+163 silly audit   'data-view-byte-length': [ '1.0.2' ],
+163 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+163 silly audit   debug: [ '4.4.3', '3.2.7' ],
+163 silly audit   'deep-is': [ '0.1.4' ],
+163 silly audit   'define-data-property': [ '1.1.4' ],
+163 silly audit   'define-properties': [ '1.2.1' ],
+163 silly audit   dequal: [ '2.0.3' ],
+163 silly audit   'detect-libc': [ '2.1.1' ],
+163 silly audit   doctrine: [ '2.1.0' ],
+163 silly audit   'dunder-proto': [ '1.0.1' ],
+163 silly audit   'emoji-regex': [ '9.2.2' ],
+163 silly audit   'enhanced-resolve': [ '5.18.3' ],
+163 silly audit   'es-abstract': [ '1.24.0' ],
+163 silly audit   'es-define-property': [ '1.0.1' ],
+163 silly audit   'es-errors': [ '1.3.0' ],
+163 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+163 silly audit   'es-object-atoms': [ '1.1.1' ],
+163 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+163 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+163 silly audit   'es-to-primitive': [ '1.3.0' ],
+163 silly audit   'escape-string-regexp': [ '4.0.0' ],
+163 silly audit   eslint: [ '9.36.0' ],
+163 silly audit   'eslint-config-next': [ '15.5.4' ],
+163 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+163 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+163 silly audit   'eslint-module-utils': [ '2.12.1' ],
+163 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+163 silly audit   semver: [ '6.3.1', '7.7.2' ],
+163 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+163 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+163 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+163 silly audit   resolve: [ '2.0.0-next.5', '1.22.10' ],
+163 silly audit   'eslint-scope': [ '8.4.0' ],
+163 silly audit   espree: [ '10.4.0' ],
+163 silly audit   esquery: [ '1.6.0' ],
+163 silly audit   esrecurse: [ '4.3.0' ],
+163 silly audit   estraverse: [ '5.3.0' ],
+163 silly audit   esutils: [ '2.0.3' ],
+163 silly audit   'fast-deep-equal': [ '3.1.3' ],
+163 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+163 silly audit   'fast-levenshtein': [ '2.0.6' ],
+163 silly audit   fastq: [ '1.19.1' ],
+163 silly audit   'file-entry-cache': [ '8.0.0' ],
+163 silly audit   'fill-range': [ '7.1.1' ],
+163 silly audit   'find-up': [ '5.0.0' ],
+163 silly audit   'flat-cache': [ '4.0.1' ],
+163 silly audit   flatted: [ '3.3.3' ],
+163 silly audit   'for-each': [ '0.3.5' ],
+163 silly audit   'function-bind': [ '1.1.2' ],
+163 silly audit   'function.prototype.name': [ '1.1.8' ],
+163 silly audit   'functions-have-names': [ '1.2.3' ],
+163 silly audit   'generator-function': [ '2.0.1' ],
+163 silly audit   'get-intrinsic': [ '1.3.0' ],
+163 silly audit   'get-proto': [ '1.0.1' ],
+163 silly audit   'get-symbol-description': [ '1.1.0' ],
+163 silly audit   'get-tsconfig': [ '4.10.1' ],
+163 silly audit   globals: [ '14.0.0' ],
+163 silly audit   globalthis: [ '1.0.4' ],
+163 silly audit   gopd: [ '1.2.0' ],
+163 silly audit   'graceful-fs': [ '4.2.11' ],
+163 silly audit   graphemer: [ '1.4.0' ],
+163 silly audit   'has-bigints': [ '1.1.0' ],
+163 silly audit   'has-flag': [ '4.0.0' ],
+163 silly audit   'has-property-descriptors': [ '1.0.2' ],
+163 silly audit   'has-proto': [ '1.2.0' ],
+163 silly audit   'has-symbols': [ '1.1.0' ],
+163 silly audit   'has-tostringtag': [ '1.0.2' ],
+163 silly audit   hasown: [ '2.0.2' ],
+163 silly audit   'import-fresh': [ '3.3.1' ],
+163 silly audit   imurmurhash: [ '0.1.4' ],
+163 silly audit   'internal-slot': [ '1.1.0' ],
+163 silly audit   'is-array-buffer': [ '3.0.5' ],
+163 silly audit   'is-async-function': [ '2.1.1' ],
+163 silly audit   'is-bigint': [ '1.1.0' ],
+163 silly audit   'is-boolean-object': [ '1.2.2' ],
+163 silly audit   'is-bun-module': [ '2.0.0' ],
+163 silly audit   'is-callable': [ '1.2.7' ],
+163 silly audit   'is-core-module': [ '2.16.1' ],
+163 silly audit   'is-data-view': [ '1.0.2' ],
+163 silly audit   'is-date-object': [ '1.1.0' ],
+163 silly audit   'is-extglob': [ '2.1.1' ],
+163 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+163 silly audit   'is-generator-function': [ '1.1.2' ],
+163 silly audit   'is-glob': [ '4.0.3' ],
+163 silly audit   'is-map': [ '2.0.3' ],
+163 silly audit   'is-negative-zero': [ '2.0.3' ],
+163 silly audit   'is-number': [ '7.0.0' ],
+163 silly audit   'is-number-object': [ '1.1.1' ],
+163 silly audit   'is-regex': [ '1.2.1' ],
+163 silly audit   'is-set': [ '2.0.3' ],
+163 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+163 silly audit   'is-string': [ '1.1.1' ],
+163 silly audit   'is-symbol': [ '1.1.1' ],
+163 silly audit   'is-typed-array': [ '1.1.15' ],
+163 silly audit   'is-weakmap': [ '2.0.2' ],
+163 silly audit   'is-weakref': [ '1.1.1' ],
+163 silly audit   'is-weakset': [ '2.0.4' ],
+163 silly audit   isarray: [ '2.0.5' ],
+163 silly audit   isexe: [ '2.0.0' ],
+163 silly audit   'iterator.prototype': [ '1.1.5' ],
+163 silly audit   jiti: [ '2.6.1' ],
+163 silly audit   jose: [ '4.15.9' ],
+163 silly audit   'js-tokens': [ '4.0.0' ],
+163 silly audit   'js-yaml': [ '4.1.0' ],
+163 silly audit   'json-buffer': [ '3.0.1' ],
+163 silly audit   'json-schema-traverse': [ '0.4.1' ],
+163 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+163 silly audit   json5: [ '1.0.2' ],
+163 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+163 silly audit   keyv: [ '4.5.4' ],
+163 silly audit   'language-subtag-registry': [ '0.3.23' ],
+163 silly audit   'language-tags': [ '1.0.9' ],
+163 silly audit   levn: [ '0.4.1' ],
+163 silly audit   lightningcss: [ '1.30.1' ],
+163 silly audit   'lightningcss-darwin-arm64': [ '1.30.1' ],
+163 silly audit   'lightningcss-darwin-x64': [ '1.30.1' ],
+163 silly audit   'lightningcss-freebsd-x64': [ '1.30.1' ],
+163 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.1' ],
+163 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.1' ],
+163 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.1' ],
+163 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.1' ],
+163 silly audit   'lightningcss-linux-x64-musl': [ '1.30.1' ],
+163 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.1' ],
+163 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.1' ],
+163 silly audit   'locate-path': [ '6.0.0' ],
+163 silly audit   'lodash.merge': [ '4.6.2' ],
+163 silly audit   'loose-envify': [ '1.4.0' ],
+163 silly audit   'lru-cache': [ '6.0.0' ],
+163 silly audit   yallist: [ '4.0.0', '5.0.0' ],
+163 silly audit   'lucide-react': [ '0.544.0' ],
+163 silly audit   'magic-string': [ '0.30.19' ],
+163 silly audit   'math-intrinsics': [ '1.1.0' ],
+163 silly audit   merge2: [ '1.4.1' ],
+163 silly audit   micromatch: [ '4.0.8' ],
+163 silly audit   minimist: [ '1.2.8' ],
+163 silly audit   minipass: [ '7.1.2' ],
+163 silly audit   minizlib: [ '3.1.0' ],
+163 silly audit   ms: [ '2.1.3' ],
+163 silly audit   nanoid: [ '3.3.11' ],
+163 silly audit   'napi-postinstall': [ '0.3.3' ],
+163 silly audit   'natural-compare': [ '1.4.0' ],
+163 silly audit   next: [ '15.5.4' ],
+163 silly audit   'next-auth': [ '4.24.11' ],
+163 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+163 silly audit   oauth: [ '0.9.15' ],
+163 silly audit   'object-assign': [ '4.1.1' ],
+163 silly audit   'object-hash': [ '2.2.0' ],
+163 silly audit   'object-inspect': [ '1.13.4' ],
+163 silly audit   'object-keys': [ '1.1.1' ],
+163 silly audit   'object.assign': [ '4.1.7' ],
+163 silly audit   'object.entries': [ '1.1.9' ],
+163 silly audit   'object.fromentries': [ '2.0.8' ],
+163 silly audit   'object.groupby': [ '1.0.3' ],
+163 silly audit   'object.values': [ '1.2.1' ],
+163 silly audit   'oidc-token-hash': [ '5.1.1' ],
+163 silly audit   'openid-client': [ '5.7.1' ],
+163 silly audit   optionator: [ '0.9.4' ],
+163 silly audit   'own-keys': [ '1.0.1' ],
+163 silly audit   'p-limit': [ '3.1.0' ],
+163 silly audit   'p-locate': [ '5.0.0' ],
+163 silly audit   'parent-module': [ '1.0.1' ],
+163 silly audit   'path-exists': [ '4.0.0' ],
+163 silly audit   'path-key': [ '3.1.1' ],
+163 silly audit   'path-parse': [ '1.0.7' ],
+163 silly audit   picocolors: [ '1.1.1' ],
+163 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+163 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+163 silly audit   preact: [ '10.27.2' ],
+163 silly audit   'preact-render-to-string': [ '5.2.6' ],
+163 silly audit   'prelude-ls': [ '1.2.1' ],
+163 silly audit   'pretty-format': [ '3.8.0' ],
+163 silly audit   'prop-types': [ '15.8.1' ],
+163 silly audit   punycode: [ '2.3.1' ],
+163 silly audit   'queue-microtask': [ '1.2.3' ],
+163 silly audit   react: [ '19.1.0' ],
+163 silly audit   'react-dom': [ '19.1.0' ],
+163 silly audit   'react-hook-form': [ '7.63.0' ],
+163 silly audit   'react-is': [ '16.13.1' ],
+163 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+163 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+163 silly audit   'resolve-from': [ '4.0.0' ],
+163 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+163 silly audit   reusify: [ '1.1.0' ],
+163 silly audit   'run-parallel': [ '1.2.0' ],
+163 silly audit   'safe-array-concat': [ '1.1.3' ],
+163 silly audit   'safe-push-apply': [ '1.0.0' ],
+163 silly audit   'safe-regex-test': [ '1.1.0' ],
+163 silly audit   scheduler: [ '0.26.0' ],
+163 silly audit   'set-function-length': [ '1.2.2' ],
+163 silly audit   'set-function-name': [ '2.0.2' ],
+163 silly audit   'set-proto': [ '1.0.0' ],
+163 silly audit   sharp: [ '0.34.4' ],
+163 silly audit   'shebang-command': [ '2.0.0' ],
+163 silly audit   'shebang-regex': [ '3.0.0' ],
+163 silly audit   'side-channel': [ '1.1.0' ],
+163 silly audit   'side-channel-list': [ '1.0.0' ],
+163 silly audit   'side-channel-map': [ '1.0.1' ],
+163 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+163 silly audit   'source-map-js': [ '1.2.1' ],
+163 silly audit   'stable-hash': [ '0.0.5' ],
+163 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+163 silly audit   'string.prototype.includes': [ '2.0.1' ],
+163 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+163 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+163 silly audit   'string.prototype.trim': [ '1.2.10' ],
+163 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+163 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+163 silly audit   'strip-bom': [ '3.0.0' ],
+163 silly audit   'strip-json-comments': [ '3.1.1' ],
+163 silly audit   'styled-jsx': [ '5.1.6' ],
+163 silly audit   'supports-color': [ '7.2.0' ],
+163 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+163 silly audit   swr: [ '2.3.6' ],
+163 silly audit   'tailwind-merge': [ '3.3.1' ],
+163 silly audit   tailwindcss: [ '4.1.14' ],
+163 silly audit   tapable: [ '2.3.0' ],
+163 silly audit   tar: [ '7.5.1' ],
+163 silly audit   tinyglobby: [ '0.2.15' ],
+163 silly audit   fdir: [ '6.5.0' ],
+163 silly audit   'to-regex-range': [ '5.0.1' ],
+163 silly audit   tr46: [ '0.0.3' ],
+163 silly audit   'ts-api-utils': [ '2.1.0' ],
+163 silly audit   'tsconfig-paths': [ '3.15.0' ],
+163 silly audit   tslib: [ '2.8.1' ],
+163 silly audit   'type-check': [ '0.4.0' ],
+163 silly audit   'typed-array-buffer': [ '1.0.3' ],
+163 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+163 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+163 silly audit   'typed-array-length': [ '1.0.7' ],
+163 silly audit   typescript: [ '5.9.3' ],
+163 silly audit   'unbox-primitive': [ '1.1.0' ],
+163 silly audit   'undici-types': [ '6.21.0' ],
+163 silly audit   'unrs-resolver': [ '1.11.1' ],
+163 silly audit   'uri-js': [ '4.4.1' ],
+163 silly audit   'use-sync-external-store': [ '1.6.0' ],
+163 silly audit   uuid: [ '8.3.2' ],
+163 silly audit   'webidl-conversions': [ '3.0.1' ],
+163 silly audit   'whatwg-url': [ '5.0.0' ],
+163 silly audit   which: [ '2.0.2' ],
+163 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+163 silly audit   'which-builtin-type': [ '1.2.1' ],
+163 silly audit   'which-collection': [ '1.0.2' ],
+163 silly audit   'which-typed-array': [ '1.1.19' ],
+163 silly audit   'word-wrap': [ '1.2.5' ],
+163 silly audit   ws: [ '8.18.3' ],
+163 silly audit   'yocto-queue': [ '0.1.0' ],
+163 silly audit   zod: [ '4.1.11' ],
+163 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.14' ]
+163 silly audit }
+164 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+165 silly reify mark deleted [
+165 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+165 silly reify ]
+166 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-x64-msvc
+167 silly reify mark deleted [
+167 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+167 silly reify ]
+168 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+169 silly reify mark deleted [
+169 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+169 silly reify ]
+170 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-wasm32-wasi
+171 silly reify mark deleted [
+171 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-wasm32-wasi'
+171 silly reify ]
+172 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-x64-musl
+173 silly reify mark deleted [
+173 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-x64-musl'
+173 silly reify ]
+174 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-x64-gnu
+175 silly reify mark deleted [
+175 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+175 silly reify ]
+176 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+177 silly reify mark deleted [
+177 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+177 silly reify ]
+178 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+179 silly reify mark deleted [
+179 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+179 silly reify ]
+180 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+181 silly reify mark deleted [
+181 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+181 silly reify ]
+182 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm64-musl
+183 silly reify mark deleted [
+183 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+183 silly reify ]
+184 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+185 silly reify mark deleted [
+185 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+185 silly reify ]
+186 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+187 silly reify mark deleted [
+187 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+187 silly reify ]
+188 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+189 silly reify mark deleted [
+189 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+189 silly reify ]
+190 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-darwin-x64
+191 silly reify mark deleted [
+191 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-darwin-x64'
+191 silly reify ]
+192 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+193 silly reify mark deleted [
+193 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+193 silly reify ]
+194 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-android-arm-eabi
+195 silly reify mark deleted [
+195 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-android-arm-eabi'
+195 silly reify ]
+196 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-freebsd-x64
+197 silly reify mark deleted [
+197 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-freebsd-x64'
+197 silly reify ]
+198 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-android-arm64
+199 silly reify mark deleted [
+199 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@unrs/resolver-binding-android-arm64'
+199 silly reify ]
+200 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-win32-x64-msvc
+201 silly reify mark deleted [
+201 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+201 silly reify ]
+202 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+203 silly reify mark deleted [
+203 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+203 silly reify ]
+204 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-x64-musl
+205 silly reify mark deleted [
+205 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-x64-musl'
+205 silly reify ]
+206 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+207 silly reify mark deleted [
+207 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+207 silly reify ]
+208 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-x64-gnu
+209 silly reify mark deleted [
+209 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-x64-gnu'
+209 silly reify ]
+210 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm64-musl
+211 silly reify mark deleted [
+211 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+211 silly reify ]
+212 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+213 silly reify mark deleted [
+213 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+213 silly reify ]
+214 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-freebsd-x64
+215 silly reify mark deleted [
+215 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-freebsd-x64'
+215 silly reify ]
+216 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-darwin-x64
+217 silly reify mark deleted [
+217 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-darwin-x64'
+217 silly reify ]
+218 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-android-arm64
+219 silly reify mark deleted [
+219 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@tailwindcss/oxide-android-arm64'
+219 silly reify ]
+220 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-win32-arm64-msvc
+221 silly reify mark deleted [
+221 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-win32-arm64-msvc'
+221 silly reify ]
+222 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-win32-x64-msvc
+223 silly reify mark deleted [
+223 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-win32-x64-msvc'
+223 silly reify ]
+224 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-x64-musl
+225 silly reify mark deleted [
+225 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-x64-musl'
+225 silly reify ]
+226 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-x64-gnu
+227 silly reify mark deleted [
+227 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-x64-gnu'
+227 silly reify ]
+228 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-arm64-musl
+229 silly reify mark deleted [
+229 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-arm64-musl'
+229 silly reify ]
+230 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-arm64-gnu
+231 silly reify mark deleted [
+231 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-linux-arm64-gnu'
+231 silly reify ]
+232 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-darwin-x64
+233 silly reify mark deleted [
+233 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@next/swc-darwin-x64'
+233 silly reify ]
+234 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-x64
+235 silly reify mark deleted [
+235 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-x64'
+235 silly reify ]
+236 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-ia32
+237 silly reify mark deleted [
+237 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-ia32'
+237 silly reify ]
+238 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-arm64
+239 silly reify mark deleted [
+239 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-win32-arm64'
+239 silly reify ]
+240 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-wasm32
+241 silly reify mark deleted [
+241 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-wasm32'
+241 silly reify ]
+242 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linuxmusl-x64
+243 silly reify mark deleted [
+243 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linuxmusl-x64'
+243 silly reify ]
+244 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linuxmusl-arm64
+245 silly reify mark deleted [
+245 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linuxmusl-arm64'
+245 silly reify ]
+246 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-x64
+247 silly reify mark deleted [
+247 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-x64'
+247 silly reify ]
+248 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-s390x
+249 silly reify mark deleted [
+249 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-s390x'
+249 silly reify ]
+250 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-arm64
+251 silly reify mark deleted [
+251 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-arm64'
+251 silly reify ]
+252 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-ppc64
+253 silly reify mark deleted [
+253 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-ppc64'
+253 silly reify ]
+254 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-arm
+255 silly reify mark deleted [
+255 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-linux-arm'
+255 silly reify ]
+256 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linuxmusl-arm64
+257 silly reify mark deleted [
+257 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+257 silly reify ]
+258 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linuxmusl-x64
+259 silly reify mark deleted [
+259 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linuxmusl-x64'
+259 silly reify ]
+260 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-x64
+261 silly reify mark deleted [
+261 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-x64'
+261 silly reify ]
+262 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-s390x
+263 silly reify mark deleted [
+263 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-s390x'
+263 silly reify ]
+264 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-ppc64
+265 silly reify mark deleted [
+265 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-ppc64'
+265 silly reify ]
+266 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-arm
+267 silly reify mark deleted [
+267 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-arm'
+267 silly reify ]
+268 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-arm64
+269 silly reify mark deleted [
+269 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-linux-arm64'
+269 silly reify ]
+270 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-darwin-x64
+271 silly reify mark deleted [
+271 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-libvips-darwin-x64'
+271 silly reify ]
+272 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-darwin-x64
+273 silly reify mark deleted [
+273 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/@img/sharp-darwin-x64'
+273 silly reify ]
+274 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-win32-x64-msvc
+275 silly reify mark deleted [
+275 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-win32-x64-msvc'
+275 silly reify ]
+276 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-x64-gnu
+277 silly reify mark deleted [
+277 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-x64-gnu'
+277 silly reify ]
+278 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm64-gnu
+279 silly reify mark deleted [
+279 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm64-gnu'
+279 silly reify ]
+280 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-win32-arm64-msvc
+281 silly reify mark deleted [
+281 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-win32-arm64-msvc'
+281 silly reify ]
+282 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-x64-musl
+283 silly reify mark deleted [
+283 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-x64-musl'
+283 silly reify ]
+284 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm64-musl
+285 silly reify mark deleted [
+285 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm64-musl'
+285 silly reify ]
+286 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm-gnueabihf
+287 silly reify mark deleted [
+287 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-linux-arm-gnueabihf'
+287 silly reify ]
+288 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-freebsd-x64
+289 silly reify mark deleted [
+289 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-freebsd-x64'
+289 silly reify ]
+290 verbose reify failed optional dependency /Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-darwin-x64
+291 silly reify mark deleted [
+291 silly reify   '/Users/kristofferlande/My Drive/Projects/K94L/k94l-website/web/node_modules/lightningcss-darwin-x64'
+291 silly reify ]
+292 timing reifyNode:node_modules/@unrs/resolver-binding-win32-arm64-msvc Completed in 10ms
+293 timing reifyNode:node_modules/@unrs/resolver-binding-win32-x64-msvc Completed in 10ms
+294 timing reifyNode:node_modules/@unrs/resolver-binding-win32-ia32-msvc Completed in 10ms
+295 timing reifyNode:node_modules/@unrs/resolver-binding-wasm32-wasi Completed in 10ms
+296 timing reifyNode:node_modules/@unrs/resolver-binding-linux-x64-musl Completed in 10ms
+297 timing reifyNode:node_modules/@unrs/resolver-binding-linux-x64-gnu Completed in 10ms
+298 timing reifyNode:node_modules/@unrs/resolver-binding-linux-s390x-gnu Completed in 10ms
+299 timing reifyNode:node_modules/@unrs/resolver-binding-linux-riscv64-musl Completed in 10ms
+300 timing reifyNode:node_modules/@unrs/resolver-binding-linux-riscv64-gnu Completed in 10ms
+301 timing reifyNode:node_modules/@unrs/resolver-binding-linux-arm64-musl Completed in 10ms
+302 timing reifyNode:node_modules/@unrs/resolver-binding-linux-ppc64-gnu Completed in 10ms
+303 timing reifyNode:node_modules/@unrs/resolver-binding-linux-arm64-gnu Completed in 10ms
+304 timing reifyNode:node_modules/@unrs/resolver-binding-linux-arm-musleabihf Completed in 10ms
+305 timing reifyNode:node_modules/@unrs/resolver-binding-darwin-x64 Completed in 10ms
+306 timing reifyNode:node_modules/@unrs/resolver-binding-linux-arm-gnueabihf Completed in 10ms
+307 timing reifyNode:node_modules/@unrs/resolver-binding-android-arm-eabi Completed in 10ms
+308 timing reifyNode:node_modules/@unrs/resolver-binding-freebsd-x64 Completed in 10ms
+309 timing reifyNode:node_modules/@unrs/resolver-binding-android-arm64 Completed in 10ms
+310 timing reifyNode:node_modules/@tailwindcss/oxide-win32-x64-msvc Completed in 10ms
+311 timing reifyNode:node_modules/@tailwindcss/oxide-win32-arm64-msvc Completed in 9ms
+312 timing reifyNode:node_modules/@tailwindcss/oxide-linux-x64-musl Completed in 9ms
+313 timing reifyNode:node_modules/@tailwindcss/oxide-linux-arm64-gnu Completed in 9ms
+314 timing reifyNode:node_modules/@tailwindcss/oxide-linux-x64-gnu Completed in 10ms
+315 timing reifyNode:node_modules/@tailwindcss/oxide-linux-arm64-musl Completed in 10ms
+316 timing reifyNode:node_modules/@tailwindcss/oxide-linux-arm-gnueabihf Completed in 10ms
+317 timing reifyNode:node_modules/@tailwindcss/oxide-freebsd-x64 Completed in 10ms
+318 timing reifyNode:node_modules/@tailwindcss/oxide-darwin-x64 Completed in 10ms
+319 timing reifyNode:node_modules/@tailwindcss/oxide-android-arm64 Completed in 10ms
+320 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 10ms
+321 timing reifyNode:node_modules/@next/swc-win32-x64-msvc Completed in 10ms
+322 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 10ms
+323 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 10ms
+324 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 10ms
+325 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 10ms
+326 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 10ms
+327 timing reifyNode:node_modules/@img/sharp-win32-x64 Completed in 10ms
+328 timing reifyNode:node_modules/@img/sharp-win32-ia32 Completed in 10ms
+329 timing reifyNode:node_modules/@img/sharp-win32-arm64 Completed in 10ms
+330 timing reifyNode:node_modules/@img/sharp-wasm32 Completed in 10ms
+331 timing reifyNode:node_modules/@img/sharp-linuxmusl-x64 Completed in 10ms
+332 timing reifyNode:node_modules/@img/sharp-linuxmusl-arm64 Completed in 10ms
+333 timing reifyNode:node_modules/@img/sharp-linux-x64 Completed in 10ms
+334 timing reifyNode:node_modules/@img/sharp-linux-s390x Completed in 10ms
+335 timing reifyNode:node_modules/@img/sharp-linux-arm64 Completed in 9ms
+336 timing reifyNode:node_modules/@img/sharp-linux-ppc64 Completed in 9ms
+337 timing reifyNode:node_modules/@img/sharp-linux-arm Completed in 9ms
+338 timing reifyNode:node_modules/@img/sharp-libvips-linuxmusl-arm64 Completed in 9ms
+339 timing reifyNode:node_modules/@img/sharp-libvips-linuxmusl-x64 Completed in 9ms
+340 timing reifyNode:node_modules/@img/sharp-libvips-linux-x64 Completed in 9ms
+341 timing reifyNode:node_modules/@img/sharp-libvips-linux-s390x Completed in 9ms
+342 timing reifyNode:node_modules/@img/sharp-libvips-linux-ppc64 Completed in 9ms
+343 timing reifyNode:node_modules/@img/sharp-libvips-linux-arm Completed in 9ms
+344 timing reifyNode:node_modules/@img/sharp-libvips-linux-arm64 Completed in 9ms
+345 timing reifyNode:node_modules/@img/sharp-libvips-darwin-x64 Completed in 9ms
+346 timing reifyNode:node_modules/@img/sharp-darwin-x64 Completed in 9ms
+347 timing reifyNode:node_modules/lightningcss-win32-x64-msvc Completed in 8ms
+348 timing reifyNode:node_modules/lightningcss-linux-x64-gnu Completed in 8ms
+349 timing reifyNode:node_modules/lightningcss-linux-arm64-gnu Completed in 8ms
+350 timing reifyNode:node_modules/lightningcss-win32-arm64-msvc Completed in 8ms
+351 timing reifyNode:node_modules/lightningcss-linux-x64-musl Completed in 8ms
+352 timing reifyNode:node_modules/lightningcss-linux-arm64-musl Completed in 8ms
+353 timing reifyNode:node_modules/lightningcss-linux-arm-gnueabihf Completed in 8ms
+354 timing reifyNode:node_modules/lightningcss-freebsd-x64 Completed in 8ms
+355 timing reifyNode:node_modules/lightningcss-darwin-x64 Completed in 8ms
+356 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.7.2.tgz. Extracting by manifest.
+357 silly tarball no local data for napi-postinstall@https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.3.tgz. Extracting by manifest.
+358 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz. Extracting by manifest.
+359 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz. Extracting by manifest.
+360 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+361 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz. Extracting by manifest.
+362 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+363 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+364 silly tarball no local data for esrecurse@https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz. Extracting by manifest.
+365 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz. Extracting by manifest.
+366 silly tarball no local data for eslint@https://registry.npmjs.org/eslint/-/eslint-9.36.0.tgz. Extracting by manifest.
+367 silly tarball no local data for @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.14.tgz. Extracting by manifest.
+368 silly tarball no local data for @supabase/storage-js@https://registry.npmjs.org/@supabase/storage-js/-/storage-js-2.12.2.tgz. Extracting by manifest.
+369 silly tarball no local data for @supabase/auth-js@https://registry.npmjs.org/@supabase/auth-js/-/auth-js-2.72.0.tgz. Extracting by manifest.
+370 silly tarball no local data for @nodelib/fs.scandir@https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz. Extracting by manifest.
+371 silly tarball no local data for @supabase/supabase-js@https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-2.58.0.tgz. Extracting by manifest.
+372 silly tarball no local data for @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz. Extracting by manifest.
+373 silly tarball no local data for @img/sharp-libvips-darwin-arm64@https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.2.3.tgz. Extracting by manifest.
+374 silly tarball no local data for @eslint/eslintrc@https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.1.tgz. Extracting by manifest.
+375 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz. Extracting by manifest.
+376 silly tarball no local data for @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.5.0.tgz. Extracting by manifest.
+377 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz. Extracting by manifest.
+378 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.19.19.tgz. Extracting by manifest.
+379 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz. Extracting by manifest.
+380 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+381 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+382 silly tarball no local data for safe-array-concat@https://registry.npmjs.org/safe-array-concat/-/safe-array-concat-1.1.3.tgz. Extracting by manifest.
+383 silly tarball no local data for ts-api-utils@https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.1.0.tgz. Extracting by manifest.
+384 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.1.0.tgz. Extracting by manifest.
+385 silly tarball no local data for reflect.getprototypeof@https://registry.npmjs.org/reflect.getprototypeof/-/reflect.getprototypeof-1.0.10.tgz. Extracting by manifest.
+386 silly tarball no local data for sharp@https://registry.npmjs.org/sharp/-/sharp-0.34.4.tgz. Extracting by manifest.
+387 silly tarball no local data for oauth@https://registry.npmjs.org/oauth/-/oauth-0.9.15.tgz. Extracting by manifest.
+388 silly tarball no local data for object.entries@https://registry.npmjs.org/object.entries/-/object.entries-1.1.9.tgz. Extracting by manifest.
+389 silly tarball no local data for next-auth@https://registry.npmjs.org/next-auth/-/next-auth-4.24.11.tgz. Extracting by manifest.
+390 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz. Extracting by manifest.
+391 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-15.5.4.tgz. Extracting by manifest.
+392 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.544.0.tgz. Extracting by manifest.
+393 silly tarball no local data for flatted@https://registry.npmjs.org/flatted/-/flatted-3.3.3.tgz. Extracting by manifest.
+394 silly tarball no local data for language-subtag-registry@https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.23.tgz. Extracting by manifest.
+395 silly tarball no local data for es-abstract@https://registry.npmjs.org/es-abstract/-/es-abstract-1.24.0.tgz. Extracting by manifest.
+396 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001747.tgz. Extracting by manifest.
+397 silly tarball no local data for axe-core@https://registry.npmjs.org/axe-core/-/axe-core-4.10.3.tgz. Extracting by manifest.
+398 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.1.0.tgz. Extracting by manifest.
+399 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+400 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+401 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+402 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.5.tgz. Extracting by manifest.
+403 silly tarball no local data for eslint-plugin-react@https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.5.tgz. Extracting by manifest.
+404 http fetch GET 200 https://registry.npmjs.org/npm 441ms (cache miss)
+405 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 240ms (cache miss)
+406 timing reifyNode:node_modules/json5 Completed in 260ms
+407 http fetch GET 200 https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz 245ms (cache miss)
+408 timing reifyNode:node_modules/esrecurse Completed in 265ms
+409 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.7.2.tgz 249ms (cache miss)
+410 timing reifyNode:node_modules/semver Completed in 268ms
+411 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz 273ms (cache miss)
+412 timing reifyNode:node_modules/js-yaml Completed in 292ms
+413 http fetch GET 200 https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.3.tgz 290ms (cache miss)
+414 timing reifyNode:node_modules/napi-postinstall Completed in 310ms
+415 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz 307ms (cache miss)
+416 timing reifyNode:node_modules/resolve Completed in 327ms
+417 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 339ms (cache miss)
+418 timing reifyNode:node_modules/tr46 Completed in 361ms
+419 http fetch GET 200 https://registry.npmjs.org/sharp/-/sharp-0.34.4.tgz 349ms (cache miss)
+420 timing reifyNode:node_modules/sharp Completed in 374ms
+421 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 365ms (cache miss)
+422 timing reifyNode:node_modules/which Completed in 385ms
+423 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 390ms (cache miss)
+424 timing reifyNode:node_modules/source-map-js Completed in 412ms
+425 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 391ms (cache miss)
+426 timing reifyNode:node_modules/uuid Completed in 414ms
+427 http fetch GET 200 https://registry.npmjs.org/flatted/-/flatted-3.3.3.tgz 389ms (cache miss)
+428 timing reifyNode:node_modules/flatted Completed in 414ms
+429 http fetch GET 200 https://registry.npmjs.org/reflect.getprototypeof/-/reflect.getprototypeof-1.0.10.tgz 394ms (cache miss)
+430 timing reifyNode:node_modules/reflect.getprototypeof Completed in 418ms
+431 http fetch GET 200 https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-2.58.0.tgz 407ms (cache miss)
+432 timing reifyNode:node_modules/@supabase/supabase-js Completed in 429ms
+433 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 415ms (cache miss)
+434 timing reifyNode:node_modules/loose-envify Completed in 436ms
+435 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.1.0.tgz 414ms (cache miss)
+436 timing reifyNode:node_modules/react Completed in 441ms
+437 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.1.14.tgz 439ms (cache miss)
+438 timing reifyNode:node_modules/@tailwindcss/oxide Completed in 459ms
+439 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 477ms
+440 timing auditReport:getReport Completed in 479ms
+441 silly audit report {}
+442 timing auditReport:init Completed in 0ms
+443 timing reify:audit Completed in 479ms
+444 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 667ms (cache miss)
+445 timing reifyNode:node_modules/nanoid Completed in 688ms
+446 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 812ms (cache miss)
+447 timing reifyNode:node_modules/tinyglobby/node_modules/fdir Completed in 843ms
+448 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz 825ms (cache miss)
+449 timing reifyNode:node_modules/acorn Completed in 845ms
+450 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz 842ms (cache miss)
+451 timing reifyNode:node_modules/@babel/runtime Completed in 863ms
+452 http fetch GET 200 https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz 1148ms (cache miss)
+453 timing reifyNode:node_modules/@nodelib/fs.scandir Completed in 1169ms
+454 http fetch GET 200 https://registry.npmjs.org/safe-array-concat/-/safe-array-concat-1.1.3.tgz 1150ms (cache miss)
+455 timing reifyNode:node_modules/safe-array-concat Completed in 1173ms
+456 http fetch GET 200 https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.1.tgz 1273ms (cache miss)
+457 timing reifyNode:node_modules/@eslint/eslintrc Completed in 1293ms
+458 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.5.tgz 1860ms (cache miss)
+459 timing reifyNode:node_modules/eslint-plugin-react Completed in 1887ms
+460 http fetch GET 200 https://registry.npmjs.org/object.entries/-/object.entries-1.1.9.tgz 1866ms (cache miss)
+461 timing reifyNode:node_modules/object.entries Completed in 1891ms
+462 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.5.tgz 1950ms (cache miss)
+463 timing reifyNode:node_modules/eslint-plugin-react/node_modules/resolve Completed in 1977ms
+464 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 1957ms (cache miss)
+465 timing reifyNode:node_modules/eslint-plugin-import/node_modules/semver Completed in 1987ms
+466 http fetch GET 200 https://registry.npmjs.org/oauth/-/oauth-0.9.15.tgz 1965ms (cache miss)
+467 timing reifyNode:node_modules/oauth Completed in 1989ms
+468 http fetch GET 200 https://registry.npmjs.org/ts-api-utils/-/ts-api-utils-2.1.0.tgz 2649ms (cache miss)
+469 timing reifyNode:node_modules/ts-api-utils Completed in 2672ms
+470 http fetch GET 200 https://registry.npmjs.org/next-auth/-/next-auth-4.24.11.tgz 2670ms (cache miss)
+471 timing reifyNode:node_modules/next-auth Completed in 2696ms
+472 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.19.19.tgz 2875ms (cache miss)
+473 timing reifyNode:node_modules/@types/node Completed in 2899ms
+474 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 3060ms (cache miss)
+475 timing reifyNode:node_modules/eslint-plugin-react/node_modules/semver Completed in 3088ms
+476 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001747.tgz 3323ms (cache miss)
+477 timing reifyNode:node_modules/caniuse-lite Completed in 3349ms
+478 http fetch GET 200 https://registry.npmjs.org/@supabase/storage-js/-/storage-js-2.12.2.tgz 3850ms (cache miss)
+479 timing reifyNode:node_modules/@supabase/storage-js Completed in 3870ms
+480 http fetch GET 200 https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.23.tgz 4184ms (cache miss)
+481 timing reifyNode:node_modules/language-subtag-registry Completed in 4209ms
+482 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.1.0.tgz 4491ms (cache miss)
+483 timing reifyNode:node_modules/react-dom Completed in 4514ms
+484 http fetch GET 200 https://registry.npmjs.org/@emnapi/core/-/core-1.5.0.tgz 4990ms (cache miss)
+485 timing reifyNode:node_modules/@emnapi/core Completed in 5011ms
+486 http fetch GET 200 https://registry.npmjs.org/axe-core/-/axe-core-4.10.3.tgz 5083ms (cache miss)
+487 timing reifyNode:node_modules/axe-core Completed in 5109ms
+488 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz 5256ms (cache miss)
+489 timing reifyNode:node_modules/jiti Completed in 5280ms
+490 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-0.544.0.tgz 6651ms (cache miss)
+491 timing reifyNode:node_modules/lucide-react Completed in 6678ms
+492 http fetch GET 200 https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz 6707ms (cache miss)
+493 timing reifyNode:node_modules/@napi-rs/wasm-runtime Completed in 6729ms
+494 http fetch GET 200 https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.2.3.tgz 14801ms (cache miss)
+495 timing reifyNode:node_modules/@img/sharp-libvips-darwin-arm64 Completed in 14823ms
+496 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 19971ms (cache miss)
+497 timing reifyNode:node_modules/typescript Completed in 19995ms
+498 http fetch GET 200 https://registry.npmjs.org/es-abstract/-/es-abstract-1.24.0.tgz 21321ms (cache miss)
+499 timing reifyNode:node_modules/es-abstract Completed in 21346ms
+500 http fetch GET 200 https://registry.npmjs.org/eslint/-/eslint-9.36.0.tgz 23327ms (cache miss)
+501 timing reifyNode:node_modules/eslint Completed in 23348ms
+502 http fetch GET 200 https://registry.npmjs.org/@supabase/auth-js/-/auth-js-2.72.0.tgz 26923ms (cache miss)
+503 timing reifyNode:node_modules/@supabase/auth-js Completed in 26943ms
+504 http fetch GET 200 https://registry.npmjs.org/next/-/next-15.5.4.tgz 28964ms (cache miss)
+505 timing reifyNode:node_modules/next Completed in 28989ms
+506 timing reify:unpack Completed in 28993ms
+507 timing reify:unretire Completed in 5ms
+508 timing build:queue Completed in 5ms
+509 timing build:link:node_modules/acorn Completed in 23ms
+510 timing build:link:node_modules/loose-envify Completed in 22ms
+511 timing build:link:node_modules/eslint-plugin-import/node_modules/semver Completed in 21ms
+512 timing build:link:node_modules/eslint Completed in 23ms
+513 timing build:link:node_modules/js-yaml Completed in 23ms
+514 timing build:link:node_modules/jiti Completed in 23ms
+515 timing build:link:node_modules/resolve Completed in 23ms
+516 timing build:link:node_modules/nanoid Completed in 23ms
+517 timing build:link:node_modules/json5 Completed in 23ms
+518 timing build:link:node_modules/next Completed in 23ms
+519 timing build:link:node_modules/semver Completed in 23ms
+520 timing build:link:node_modules/napi-postinstall Completed in 23ms
+521 timing build:link:node_modules/uuid Completed in 22ms
+522 timing build:link:node_modules/which Completed in 22ms
+523 timing build:link:node_modules/typescript Completed in 22ms
+524 timing build:link:node_modules/eslint-plugin-react/node_modules/semver Completed in 22ms
+525 timing build:link:node_modules/eslint-plugin-react/node_modules/resolve Completed in 22ms
+526 timing build:link Completed in 24ms
+527 info run sharp@0.34.4 install node_modules/sharp node install/check.js
+528 info run sharp@0.34.4 install { code: 0, signal: null }
+529 timing build:run:install:node_modules/sharp Completed in 1176ms
+530 timing build:run:install Completed in 1176ms
+531 info run @tailwindcss/oxide@4.1.14 postinstall node_modules/@tailwindcss/oxide node ./scripts/install.js
+532 info run @tailwindcss/oxide@4.1.14 postinstall { code: 0, signal: null }
+533 timing build:run:postinstall:node_modules/@tailwindcss/oxide Completed in 68ms
+534 timing build:run:postinstall Completed in 68ms
+535 timing build:deps Completed in 1273ms
+536 timing build Completed in 1273ms
+537 timing reify:build Completed in 1274ms
+538 timing reify:trash Completed in 342ms
+539 timing reify:save Completed in 56ms
+540 timing reify Completed in 30926ms
+541 silly CHANGE node_modules/which
+542 silly CHANGE node_modules/tinyglobby/node_modules/fdir
+543 silly CHANGE node_modules/semver
+544 silly CHANGE node_modules/resolve
+545 silly CHANGE node_modules/napi-postinstall
+546 silly CHANGE node_modules/nanoid
+547 silly CHANGE node_modules/loose-envify
+548 silly CHANGE node_modules/json5
+549 silly CHANGE node_modules/js-yaml
+550 silly CHANGE node_modules/esrecurse
+551 silly CHANGE node_modules/eslint-plugin-import/node_modules/semver
+552 silly CHANGE node_modules/eslint
+553 silly CHANGE node_modules/acorn
+554 silly CHANGE node_modules/@unrs/resolver-binding-win32-arm64-msvc
+555 silly CHANGE node_modules/@unrs/resolver-binding-win32-x64-msvc
+556 silly CHANGE node_modules/@unrs/resolver-binding-win32-ia32-msvc
+557 silly CHANGE node_modules/@unrs/resolver-binding-wasm32-wasi
+558 silly CHANGE node_modules/@unrs/resolver-binding-linux-x64-musl
+559 silly CHANGE node_modules/@unrs/resolver-binding-linux-x64-gnu
+560 silly CHANGE node_modules/@unrs/resolver-binding-linux-s390x-gnu
+561 silly CHANGE node_modules/@unrs/resolver-binding-linux-riscv64-musl
+562 silly CHANGE node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+563 silly CHANGE node_modules/@unrs/resolver-binding-linux-arm64-musl
+564 silly CHANGE node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+565 silly CHANGE node_modules/@unrs/resolver-binding-linux-arm64-gnu
+566 silly CHANGE node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+567 silly CHANGE node_modules/@unrs/resolver-binding-darwin-x64
+568 silly CHANGE node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+569 silly CHANGE node_modules/@unrs/resolver-binding-android-arm-eabi
+570 silly CHANGE node_modules/@unrs/resolver-binding-freebsd-x64
+571 silly CHANGE node_modules/@unrs/resolver-binding-android-arm64
+572 silly CHANGE node_modules/@types/node
+573 silly CHANGE node_modules/@tailwindcss/oxide-win32-x64-msvc
+574 silly CHANGE node_modules/@tailwindcss/oxide-win32-arm64-msvc
+575 silly CHANGE node_modules/@tailwindcss/oxide-wasm32-wasi
+576 silly CHANGE node_modules/@tailwindcss/oxide-linux-x64-musl
+577 silly CHANGE node_modules/@tailwindcss/oxide-linux-arm64-gnu
+578 silly CHANGE node_modules/@tailwindcss/oxide-linux-x64-gnu
+579 silly CHANGE node_modules/@tailwindcss/oxide-linux-arm64-musl
+580 silly CHANGE node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+581 silly CHANGE node_modules/@tailwindcss/oxide-freebsd-x64
+582 silly CHANGE node_modules/@tailwindcss/oxide-darwin-x64
+583 silly CHANGE node_modules/@tailwindcss/oxide-android-arm64
+584 silly CHANGE node_modules/@tailwindcss/oxide
+585 silly CHANGE node_modules/@supabase/supabase-js
+586 silly CHANGE node_modules/@supabase/storage-js
+587 silly CHANGE node_modules/@supabase/auth-js
+588 silly CHANGE node_modules/@nodelib/fs.scandir
+589 silly CHANGE node_modules/@next/swc-win32-arm64-msvc
+590 silly CHANGE node_modules/@next/swc-win32-x64-msvc
+591 silly CHANGE node_modules/@next/swc-linux-x64-musl
+592 silly CHANGE node_modules/@next/swc-linux-x64-gnu
+593 silly CHANGE node_modules/@next/swc-linux-arm64-musl
+594 silly CHANGE node_modules/@next/swc-linux-arm64-gnu
+595 silly CHANGE node_modules/@next/swc-darwin-x64
+596 silly CHANGE node_modules/@napi-rs/wasm-runtime
+597 silly CHANGE node_modules/@img/sharp-win32-x64
+598 silly CHANGE node_modules/@img/sharp-win32-ia32
+599 silly CHANGE node_modules/@img/sharp-win32-arm64
+600 silly CHANGE node_modules/@img/sharp-wasm32
+601 silly CHANGE node_modules/@img/sharp-linuxmusl-x64
+602 silly CHANGE node_modules/@img/sharp-linuxmusl-arm64
+603 silly CHANGE node_modules/@img/sharp-linux-x64
+604 silly CHANGE node_modules/@img/sharp-linux-s390x
+605 silly CHANGE node_modules/@img/sharp-linux-arm64
+606 silly CHANGE node_modules/@img/sharp-linux-ppc64
+607 silly CHANGE node_modules/@img/sharp-linux-arm
+608 silly CHANGE node_modules/@img/sharp-libvips-linuxmusl-arm64
+609 silly CHANGE node_modules/@img/sharp-libvips-linuxmusl-x64
+610 silly CHANGE node_modules/@img/sharp-libvips-linux-x64
+611 silly CHANGE node_modules/@img/sharp-libvips-linux-s390x
+612 silly CHANGE node_modules/@img/sharp-libvips-linux-ppc64
+613 silly CHANGE node_modules/@img/sharp-libvips-linux-arm
+614 silly CHANGE node_modules/@img/sharp-libvips-linux-arm64
+615 silly CHANGE node_modules/@img/sharp-libvips-darwin-x64
+616 silly CHANGE node_modules/@img/sharp-libvips-darwin-arm64
+617 silly CHANGE node_modules/@img/sharp-darwin-x64
+618 silly CHANGE node_modules/@emnapi/core
+619 silly CHANGE node_modules/@eslint/eslintrc
+620 silly CHANGE node_modules/@babel/runtime
+621 silly CHANGE node_modules/uuid
+622 silly CHANGE node_modules/typescript
+623 silly CHANGE node_modules/ts-api-utils
+624 silly CHANGE node_modules/tr46
+625 silly CHANGE node_modules/source-map-js
+626 silly CHANGE node_modules/sharp
+627 silly CHANGE node_modules/safe-array-concat
+628 silly CHANGE node_modules/react-dom
+629 silly CHANGE node_modules/reflect.getprototypeof
+630 silly CHANGE node_modules/react
+631 silly CHANGE node_modules/object.entries
+632 silly CHANGE node_modules/oauth
+633 silly CHANGE node_modules/next-auth
+634 silly CHANGE node_modules/next
+635 silly CHANGE node_modules/lucide-react
+636 silly CHANGE node_modules/lightningcss-win32-x64-msvc
+637 silly CHANGE node_modules/lightningcss-linux-x64-gnu
+638 silly CHANGE node_modules/lightningcss-linux-arm64-gnu
+639 silly CHANGE node_modules/lightningcss-win32-arm64-msvc
+640 silly CHANGE node_modules/lightningcss-linux-x64-musl
+641 silly CHANGE node_modules/lightningcss-linux-arm64-musl
+642 silly CHANGE node_modules/lightningcss-linux-arm-gnueabihf
+643 silly CHANGE node_modules/lightningcss-freebsd-x64
+644 silly CHANGE node_modules/lightningcss-darwin-x64
+645 silly CHANGE node_modules/language-subtag-registry
+646 silly CHANGE node_modules/jiti
+647 silly CHANGE node_modules/flatted
+648 silly CHANGE node_modules/eslint-plugin-react
+649 silly CHANGE node_modules/eslint-plugin-react/node_modules/resolve
+650 silly CHANGE node_modules/eslint-plugin-react/node_modules/semver
+651 silly CHANGE node_modules/es-abstract
+652 silly CHANGE node_modules/caniuse-lite
+653 silly CHANGE node_modules/axe-core
+654 timing command:install Completed in 30932ms
+655 notice
+655 notice New [31mmajor[39m version of npm available! [31m10.2.4[39m -> [32m11.6.1[39m
+655 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v11.6.1[39m
+655 notice Run [32mnpm install -g npm@11.6.1[39m to update!
+655 notice
+656 verbose exit 0
+657 timing npm Completed in 31057ms
+658 info ok
