@@ -13,13 +13,15 @@ async function requireSession() {
   return session;
 }
 
-export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
+export async function PUT(request: NextRequest, { params }: { params: Record<string, string | string[]> }) {
   const session = await requireSession();
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const id = Number(params.id);
+  const rawId = params.id;
+  const idValue = Array.isArray(rawId) ? rawId[0] : rawId;
+  const id = Number(idValue);
   if (Number.isNaN(id)) {
     return NextResponse.json({ error: "Invalid id" }, { status: 400 });
   }
@@ -47,13 +49,15 @@ export async function PUT(request: NextRequest, { params }: { params: { id: stri
   return NextResponse.json({ data });
 }
 
-export async function DELETE(_request: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(_request: NextRequest, { params }: { params: Record<string, string | string[]> }) {
   const session = await requireSession();
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const id = Number(params.id);
+  const rawId = params.id;
+  const idValue = Array.isArray(rawId) ? rawId[0] : rawId;
+  const id = Number(idValue);
   if (Number.isNaN(id)) {
     return NextResponse.json({ error: "Invalid id" }, { status: 400 });
   }
