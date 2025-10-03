@@ -27,4 +27,4 @@ export const portfolioInputSchema = z.object({
     .transform((value) => value || null),
 });
 
-export type PortfolioInput = z.infer<typeof portfolioInputSchema>;
+export type PortfolioInput = z.output<typeof portfolioInputSchema>;
