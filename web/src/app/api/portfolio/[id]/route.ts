@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { revalidatePath } from "next/cache";
 import { portfolioInputSchema } from "@/lib/validation";
 import { getServiceSupabaseClient } from "@/lib/supabase";
@@ -13,13 +13,13 @@ async function requireSession() {
   return session;
 }
 
-export async function PUT(request: Request, context: { params: { id: string } }) {
+export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
   const session = await requireSession();
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const id = Number(context.params.id);
+  const id = Number(params.id);
   if (Number.isNaN(id)) {
     return NextResponse.json({ error: "Invalid id" }, { status: 400 });
   }
@@ -47,13 +47,13 @@ export async function PUT(request: Request, context: { params: { id: string } })
   return NextResponse.json({ data });
 }
 
-export async function DELETE(_request: Request, context: { params: { id: string } }) {
+export async function DELETE(_request: NextRequest, { params }: { params: { id: string } }) {
   const session = await requireSession();
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const id = Number(context.params.id);
+  const id = Number(params.id);
   if (Number.isNaN(id)) {
     return NextResponse.json({ error: "Invalid id" }, { status: 400 });
   }
