@@ -13,6 +13,7 @@ A lightweight static site for K94L Holding mirroring the live Databutton experie
 ├── index.html                # Main page
 ├── script.js                 # Handles CSV loading + preview logic
 ├── styles.css                # Styling
+├── generate_portfolio.py     # Builds static markup from the CSV
 └── README.md
 ```
 
@@ -35,14 +36,16 @@ A lightweight static site for K94L Holding mirroring the live Databutton experie
   ```
 - Status is case-insensitive and accepts `Invested`, `Exited`, or `RIP` (others fall back to a neutral badge).
 - URLs may be empty; otherwise include the full address (`https://…`).
-- The “Preview a CSV locally” button lets you drop a CSV to validate the layout without publishing changes—after verifying, replace `data/portfolio.csv` with the final file.
+- Portfolio and exit counters update automatically (rows marked `RIP` are skipped from the portfolio total).
+- After running the generator you can spin up the local server to confirm the layout before publishing changes.
 
 ### Suggested workflow
 
 1. Export or edit the portfolio list in your spreadsheet tool.
 2. Save as CSV using UTF-8 encoding.
-3. Use the preview button on the site (locally) to confirm everything looks correct.
-4. Replace the file at `data/portfolio.csv` and push/upload the change.
+3. Run `python generate_portfolio.py` to rebuild the portfolio markup (updates the homepage and company count).
+4. (Optional) Start a local server to double-check: `python3 -m http.server 3000`.
+5. Deploy the updated files (`index.html`, `data/portfolio.csv`, etc.) to one.com.
 
 ## Deploying to one.com
 

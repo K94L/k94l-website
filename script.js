@@ -104,9 +104,28 @@ function createCard(entry) {
   return card;
 }
 
+function calculateStats(entries) {
+  return entries.reduce((acc, entry) => {
+    const status = (entry.status || '').toLowerCase();
+    if (status !== 'rip') {
+      acc.active += 1;
+    }
+    if (status === 'exited') {
+      acc.exits += 1;
+    }
+    return acc;
+  }, { active: 0, exits: 0 });
+}
+
 function renderPortfolio(entries, { showPlaceholder = true } = {}) {
   portfolioGrid.replaceChildren();
-  portfolioCount.textContent = entries.length ? String(entries.length) : '0';
+
+  const stats = calculateStats(entries);
+  portfolioCount.textContent = String(stats.active);
+  const exitCountElement = document.getElementById('exit-count');
+  if (exitCountElement) {
+    exitCountElement.textContent = String(stats.exits);
+  }
 
   if (!entries.length && showPlaceholder) {
     const placeholder = document.createElement('p');
