@@ -6,25 +6,12 @@ export const portfolioInputSchema = z.object({
     .string()
     .trim()
     .optional()
-    .transform((value) => value || null)
     .refine((value) => !value || /^\d{4}$/.test(value), {
       message: "Year must be a four digit number",
     }),
-  website: z
-    .string()
-    .trim()
-    .optional()
-    .transform((value) => value || null),
-  tag: z
-    .string()
-    .trim()
-    .optional()
-    .transform((value) => value || null),
-  industry: z
-    .string()
-    .trim()
-    .optional()
-    .transform((value) => value || null),
+  website: z.string().trim().optional(),
+  tag: z.string().trim().optional(),
+  industry: z.string().trim().optional(),
 });
 
-export type PortfolioInput = z.output<typeof portfolioInputSchema>;
+export type PortfolioInput = z.infer<typeof portfolioInputSchema>;
