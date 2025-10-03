@@ -16,17 +16,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "K94L Holding",
   description: "K94L Holding is a private investment company focusing primarily on startups.",
+  manifest: "/site.webmanifest",
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
-      { url: "/favicon.png", type: "image/png", sizes: "16x16" },
+      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon.ico", type: "image/x-icon" },
     ],
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "K94L Holding",
     description: "K94L Holding is a private investment company focusing primarily on startups.",
+  manifest: "/site.webmanifest",
     url: "https://k94l.com",
     siteName: "K94L Holding",
     images: [
