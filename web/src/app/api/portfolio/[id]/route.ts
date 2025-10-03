@@ -13,6 +13,7 @@ async function requireSession() {
   return session;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function PUT(request: NextRequest, context: any) {
   const params = (context?.params ?? {}) as Record<string, string | string[]>;
   const session = await requireSession();
@@ -50,6 +51,7 @@ export async function PUT(request: NextRequest, context: any) {
   return NextResponse.json({ data });
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function DELETE(_request: NextRequest, context: any) {
   const params = (context?.params ?? {}) as Record<string, string | string[]>;
   const session = await requireSession();
