@@ -13,7 +13,8 @@ async function requireSession() {
   return session;
 }
 
-export async function PUT(request: NextRequest, { params }: { params: Record<string, string | string[]> }) {
+export async function PUT(request: NextRequest, context: any) {
+  const params = (context?.params ?? {}) as Record<string, string | string[]>;
   const session = await requireSession();
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -49,7 +50,8 @@ export async function PUT(request: NextRequest, { params }: { params: Record<str
   return NextResponse.json({ data });
 }
 
-export async function DELETE(_request: NextRequest, { params }: { params: Record<string, string | string[]> }) {
+export async function DELETE(_request: NextRequest, context: any) {
+  const params = (context?.params ?? {}) as Record<string, string | string[]>;
   const session = await requireSession();
   if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
