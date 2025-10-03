@@ -53,13 +53,18 @@ export default function AdminPage() {
     return [...data].sort((a, b) => a.name.localeCompare(b.name));
   }, [data]);
 
+  const normalizeOptional = (value?: string | null) => {
+    const trimmed = value?.trim();
+    return trimmed && trimmed.length > 0 ? trimmed : null;
+  };
+
   const handleSubmit = form.handleSubmit(async (values) => {
     const payload = {
-      ...values,
-      tag: values.tag || null,
-      website: values.website || null,
-      industry: values.industry || null,
-      year: values.year || null,
+      name: values.name.trim(),
+      industry: normalizeOptional(values.industry),
+      tag: normalizeOptional(values.tag) ?? "Invested",
+      website: normalizeOptional(values.website),
+      year: normalizeOptional(values.year),
     };
 
     const url = editingId ? `/api/portfolio/${editingId}` : "/api/portfolio";
@@ -83,12 +88,14 @@ export default function AdminPage() {
   });
 
   const handleEdit = (company: PortfolioCompany) => {
+    const safe = (value?: string | null) => value?.trim() ?? "";
     setEditingId(company.id);
     form.setValue("name", company.name ?? "");
-    form.setValue("industry", company.industry ?? "");
-    form.setValue("tag", company.tag ?? "");
-    form.setValue("website", company.website ?? "");
-    form.setValue("year", company.year ?? "");
+    form.setValue("industry", safe(company.industry));
+    const tagValue = safe(company.tag);
+    form.setValue("tag", tagValue || "Invested");
+    form.setValue("website", safe(company.website));
+    form.setValue("year", safe(company.year));
   };
 
   const handleDelete = async (id: number) => {
