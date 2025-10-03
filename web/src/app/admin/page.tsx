@@ -169,7 +169,7 @@ export default function AdminPage() {
             <label className="flex flex-col gap-2 text-sm">
               <span className="font-medium text-slate-700">Name</span>
               <input
-                className="rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-slate-900 focus:outline-none"
+                className="rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-900 focus:outline-none"
                 {...form.register("name")}
               />
               {form.formState.errors.name && (
@@ -182,7 +182,7 @@ export default function AdminPage() {
             <label className="flex flex-col gap-2 text-sm">
               <span className="font-medium text-slate-700">Industry</span>
               <input
-                className="rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-slate-900 focus:outline-none"
+                className="rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-900 focus:outline-none"
                 {...form.register("industry")}
               />
             </label>
@@ -190,7 +190,7 @@ export default function AdminPage() {
             <label className="flex flex-col gap-2 text-sm">
               <span className="font-medium text-slate-700">Status</span>
               <select
-                className="rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-slate-900 focus:outline-none"
+                className="rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-900 focus:outline-none"
                 {...form.register("tag")}
               >
                 <option value="Invested">Invested</option>
@@ -202,7 +202,7 @@ export default function AdminPage() {
             <label className="flex flex-col gap-2 text-sm">
               <span className="font-medium text-slate-700">Year</span>
               <input
-                className="rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-slate-900 focus:outline-none"
+                className="rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-900 focus:outline-none"
                 {...form.register("year")}
               />
               {form.formState.errors.year && (
@@ -215,7 +215,7 @@ export default function AdminPage() {
             <label className="md:col-span-2 flex flex-col gap-2 text-sm">
               <span className="font-medium text-slate-700">Website</span>
               <input
-                className="rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-slate-900 focus:outline-none"
+                className="rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-900 focus:outline-none"
                 {...form.register("website")}
               />
             </label>
