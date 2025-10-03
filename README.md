@@ -1,80 +1,83 @@
 # K94L Holding Website
 
-A lightweight static site for K94L Holding with a portfolio section. The portfolio section is powered by a CSV file so updates can be done without touching the markup or scripts.
+A lightweight marketing site for K94L Holding with an investment portfolio that is now maintained through the Next.js + Supabase admin. The legacy static CSV workflow is still kept in the repo for reference, but production edits should run through the admin panel.
 
 ## Project layout
 
 ```
 ./
-├── assets/
-│   └── k94l-red.png          # Logo asset (favicon + header)
-├── data/
-│   └── portfolio.csv         # Source of truth for the portfolio grid
-├── index.html                # Main page
-├── script.js                 # Handles CSV loading + preview logic
-├── styles.css                # Styling
-├── generate_portfolio.py     # Builds static markup from the CSV
-├── web/                      # Next.js app (Vercel deployment + admin)
-└── README.md
+├── assets/                  # Legacy static assets (used by the old CSV build)
+├── data/                    # Legacy portfolio.csv (only needed if you rebuild the static version)
+├── generate_portfolio.py    # Helper to rebuild the static HTML from the CSV (legacy)
+├── index.html / script.js / styles.css   # Legacy static site
+├── web/                     # Next.js app served from Vercel (public site + admin)
+└── README.md                # Docs
 ```
 
-## Local development
+## Local development (Next.js / Supabase)
 
-1. From this folder run a simple web server (any static server works):
+1. Install dependencies once:
    ```bash
-   python3 -m http.server 3000
+   cd web
+   npm install
    ```
-2. Visit `http://localhost:3000`.
-3. The page auto-loads `data/portfolio.csv` and renders the portfolio grid.
+2. Create `web/.env.local` (see `web/.env.example`) with your Supabase keys, Google OAuth credentials, `NEXTAUTH_SECRET`, and the email(s) allowed to sign in.
+3. Start the dev server:
+   ```bash
+   npm run dev
+   ```
+4. Visit `http://localhost:3000` for the public site and `http://localhost:3000/admin` to log in with Google and manage portfolio entries.
 
-> Opening the file directly from the filesystem will block `fetch()` in some browsers; the local server avoids that.
+> The admin writes directly to Supabase and triggers revalidation, so the homepage updates automatically after each change.
 
-## Updating the portfolio
+### Optional: legacy static preview
 
-- Keep the `portfolio.csv` headers as:
-  ```text
-  name,industry,status,year,url
-  ```
-- Status is case-insensitive and accepts `Invested`, `Exited`, or `RIP` (others fall back to a neutral badge).
-- URLs may be empty; otherwise include the full address (`https://…`).
-- Portfolio and exit counters update automatically (rows marked `RIP` are skipped from the portfolio total).
-- After running the generator you can spin up the local server to confirm the layout before publishing changes.
+If you need to rebuild or preview the original CSV-driven site:
 
-### Suggested workflow
+```bash
+python generate_portfolio.py     # rebuilds index.html markup from data/portfolio.csv
+python3 -m http.server 3000      # serve the static files
+```
+Then open `http://localhost:3000`.
 
-1. Export or edit the portfolio list in your spreadsheet tool.
-2. Save as CSV using UTF-8 encoding.
-3. Run `python generate_portfolio.py` to rebuild the portfolio markup (updates the homepage and company count).
-4. (Optional) Start a local server to double-check: `python3 -m http.server 3000`.
-5. Deploy the updated files (`index.html`, `data/portfolio.csv`, etc.) to one.com.
-6. Alternatively, manage the data via the Vercel/Next.js admin in `web/`.
+## Updating the portfolio (production workflow)
 
-## Deploying to one.com
+1. Go to `/admin` on the deployed site (Google sign-in required).
+2. Add, edit, or delete companies. Empty website/contact fields are allowed; the UI normalizes blank values for Supabase.
+3. Each save revalidates the homepage so it reflects the latest data within seconds.
 
-One.com hosting serves static files from the `public_html` directory of your space.
+### Legacy CSV workflow (optional)
 
-1. Zip or upload the files/folders listed above to `public_html` (or a subfolder if you prefer).
-   - You can use the One.com File Manager (Control Panel → File Manager) or any FTP client (host: `ftp.one.com`).
-2. Ensure the uploaded structure matches this repository (i.e. `index.html` lives at the root and the `assets/` + `data/` folders sit next to it).
-3. If the domain should resolve directly to the site, keep the files at the top level of `public_html`. Otherwise place them in a folder (e.g. `/k94l`) and point the domain or subdomain to that directory via One.com DNS settings.
-4. To update the portfolio later, upload the new `data/portfolio.csv` to the same location—no other files need to change.
+If you must maintain the static CSV version:
 
-### Going live on your domain
+1. Edit `data/portfolio.csv` (headers: `name,industry,status,year,url`).
+2. Run `python generate_portfolio.py`.
+3. Serve or upload the generated files manually (see next section).
 
-- After the files are uploaded, set the domain’s web root in One.com to the directory that contains `index.html` (Control Panel → Domains → Website settings → Change web root).
-- DNS propagation can take a few minutes. Once complete, visiting the domain should render the site.
-- Keep a backup of the CSV so you can roll back quickly if needed.
+## Deployments
+
+### Vercel (production)
+
+- The `web/` app is connected to Vercel. Pushes to `main` trigger automatic builds.
+- Environment variables live in the Vercel dashboard (match `.env.local`).
+- Custom domain `k94l.com` points to Vercel via one.com DNS (A record to `76.76.21.21`, CNAME `www → <vercel-dns>.com`).
+- Google OAuth redirect URIs should include `https://k94l.com/api/auth/callback/google` (and `www` if used).
+
+### One.com (legacy static host)
+
+If you still need the original static files on one.com:
+
+1. Upload `index.html`, `assets/`, `data/`, `script.js`, and `styles.css` to `public_html`.
+2. Update `data/portfolio.csv` and rerun the generator whenever the portfolio changes.
+3. Set the web root in one.com to the folder containing `index.html`.
 
 ## Next steps / enhancements
 
-- Add analytics or SEO metadata if needed for broader visibility.
-- Protect the CSV upload flow behind a password and persist uploads via a small serverless function if One.com allows dynamic scripting.
-- Automate deployment using a GitHub Action that deploys on push via FTP or the One.com API.
+- Add analytics or additional SEO metadata if desired.
+- Automate Supabase seeding or nightly exports if you want a CSV backup.
+- Remove the legacy static workflow when you are confident everything runs through the admin.
 
-## Next.js + Supabase admin (Vercel)
+## Related docs
 
-The `web/` directory contains the Next.js project deployed to Vercel. It provides:
-- Google-authenticated access to `/admin` for editing companies in Supabase
-- API routes that revalidate the public page after changes
-
-Follow `web/README.md` for environment variables and deployment steps.
+- `web/README.md` – detailed environment variable list and Vercel deployment steps for the Next.js app.
+- Supabase policies – ensure the `portfolio_companies` table keeps the `anon` select policy so the homepage can read data.
