@@ -1,6 +1,6 @@
 # K94L Holding Website
 
-A lightweight static site for K94L Holding mirroring the live Databutton experience. The portfolio section is powered by a CSV file so updates can be done without touching the markup or scripts.
+A lightweight static site for K94L Holding with a portfolio section. The portfolio section is powered by a CSV file so updates can be done without touching the markup or scripts.
 
 ## Project layout
 
