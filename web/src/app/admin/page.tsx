@@ -55,7 +55,7 @@ export default function AdminPage() {
 
   const normalizeOptional = (value?: string | null) => {
     const trimmed = value?.trim();
-    return trimmed && trimmed.length > 0 ? trimmed : null;
+    return trimmed && trimmed.length > 0 ? trimmed : undefined;
   };
 
   const handleSubmit = form.handleSubmit(async (values) => {
@@ -89,7 +89,10 @@ export default function AdminPage() {
   });
 
   const handleEdit = (company: PortfolioCompany) => {
-    const safe = (value?: string | null) => value?.trim() ?? "";
+    const safe = (value?: string | null) => {
+      const trimmed = value?.trim();
+      return trimmed && trimmed.length > 0 ? trimmed : "";
+    };
     setEditingId(company.id);
     form.setValue("name", company.name ?? "");
     form.setValue("industry", safe(company.industry));

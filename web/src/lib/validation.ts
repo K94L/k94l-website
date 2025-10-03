@@ -2,9 +2,12 @@ import { z } from "zod";
 
 const optionalField = z
   .string()
-  .trim()
   .optional()
-  .transform((value) => (value && value.length > 0 ? value : null));
+  .transform((value) => {
+    if (typeof value !== "string") return undefined;
+    const trimmed = value.trim();
+    return trimmed.length > 0 ? trimmed : undefined;
+  });
 
 export const portfolioInputSchema = z.object({
   name: z.string().trim().min(1, "Name is required"),
