@@ -1,6 +1,6 @@
 # K94L Holding Website
 
-A lightweight marketing site for K94L Holding with an investment portfolio that is now maintained through the Next.js + Supabase admin. The legacy static CSV workflow is still kept in the repo for reference, but production edits should run through the admin panel.
+A lightweight site for K94L Holding. The investment portfolio lives in Supabase and is edited through the Next.js admin. We keep the legacy CSV workflow in the repo for reference, but all production updates should go through the admin panel.
 
 ## Project layout
 
