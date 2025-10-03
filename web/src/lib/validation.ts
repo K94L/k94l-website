@@ -16,4 +16,6 @@ export const portfolioInputSchema = z.object({
   industry: optionalField,
 });
 
-export type PortfolioInput = z.infer<typeof portfolioInputSchema>;
+export type PortfolioInput = z.output<typeof portfolioInputSchema>;
+
+export type PortfolioFormValues = z.input<typeof portfolioInputSchema>;

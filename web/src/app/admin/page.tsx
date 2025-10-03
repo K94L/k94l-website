@@ -5,7 +5,7 @@ import useSWR from "swr";
 import { useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { portfolioInputSchema, type PortfolioInput } from "@/lib/validation";
+import { portfolioInputSchema, type PortfolioInput, type PortfolioFormValues } from "@/lib/validation";
 import type { PortfolioCompany } from "@/types/portfolio";
 import { normaliseStatus } from "@/lib/portfolio";
 
@@ -26,7 +26,7 @@ export default function AdminPage() {
   );
 
   const [editingId, setEditingId] = useState<number | null>(null);
-  const form = useForm<PortfolioInput>({
+  const form = useForm<PortfolioFormValues>({
     resolver: zodResolver(portfolioInputSchema),
     defaultValues: {
       name: "",
@@ -59,10 +59,11 @@ export default function AdminPage() {
   };
 
   const handleSubmit = form.handleSubmit(async (values) => {
-    const payload = {
+    const tagValue = normalizeOptional(values.tag);
+    const payload: PortfolioInput = {
       name: values.name.trim(),
       industry: normalizeOptional(values.industry),
-      tag: normalizeOptional(values.tag) ?? "Invested",
+      tag: tagValue ?? "Invested",
       website: normalizeOptional(values.website),
       year: normalizeOptional(values.year),
     };
