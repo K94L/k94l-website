@@ -1,14 +1,10 @@
 import { z } from "zod";
 
 const optionalField = z
-  .union([z.string(), z.null(), z.undefined()])
-  .transform((value) => {
-    if (typeof value === "string") {
-      const trimmed = value.trim();
-      return trimmed.length > 0 ? trimmed : null;
-    }
-    return null;
-  });
+  .string()
+  .trim()
+  .optional()
+  .transform((value) => (value && value.length > 0 ? value : null));
 
 export const portfolioInputSchema = z.object({
   name: z.string().trim().min(1, "Name is required"),
@@ -20,4 +16,4 @@ export const portfolioInputSchema = z.object({
   industry: optionalField,
 });
 
-export type PortfolioInput = z.output<typeof portfolioInputSchema>;
+export type PortfolioInput = z.infer<typeof portfolioInputSchema>;
