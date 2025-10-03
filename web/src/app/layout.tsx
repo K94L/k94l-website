@@ -14,10 +14,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://k94l.com"),
   title: "K94L Holding",
   description: "K94L Holding is a private investment company focusing primarily on startups.",
-  icons: { icon: "/k94l-red.png" },
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon.png", type: "image/png", sizes: "16x16" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "K94L Holding",
     description: "K94L Holding is a private investment company focusing primarily on startups.",
