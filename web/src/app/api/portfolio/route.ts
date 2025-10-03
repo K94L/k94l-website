@@ -1,10 +1,18 @@
 import { NextResponse } from "next/server";
 import { revalidatePath } from "next/cache";
-import { portfolioInputSchema } from "@/lib/validation";
+import { portfolioInputSchema, type PortfolioInput } from "@/lib/validation";
 import { getServiceSupabaseClient } from "@/lib/supabase";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth-options";
 
+
+const toDbPayload = (input: PortfolioInput) => ({
+  name: input.name,
+  industry: input.industry ?? null,
+  tag: input.tag ?? "Invested",
+  website: input.website ?? null,
+  year: input.year ?? null,
+});
 async function requireSession() {
   const session = await getServerSession(authOptions);
   if (!session?.user?.email) {
@@ -46,9 +54,10 @@ export async function POST(request: Request) {
   }
 
   const supabase = getServiceSupabaseClient();
+  const payload = toDbPayload(parsed.data);
   const { data, error } = await supabase
     .from("portfolio_companies")
-    .insert({ ...parsed.data })
+    .insert(payload)
     .select("*")
     .single();
 
