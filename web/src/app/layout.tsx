@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "K94L Holding",
   description: "K94L Holding is a private investment company focusing primarily on startups.",
+  metadataBase: new URL("https://k94l.com"),
   manifest: "/site.webmanifest",
   icons: {
     icon: [
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
       { url: "/meta-image.jpeg", width: 1200, height: 630, alt: "K94L Holding" },
     ],
   },
+  alternates: { canonical: "/" },
 };
 
 export default function RootLayout({
